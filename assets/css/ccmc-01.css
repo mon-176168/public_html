@@ -1,0 +1,32 @@
+@import url("http://localhost/prj-p_reviews/assets/css/style.css");
+#search table {
+  margin: 0 auto;
+}
+#search table th, #search table td {
+  padding: 0.5rem;
+}
+#search table input[type="submit"] {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#result table {
+  background-color: #ffffff;
+  border-collapse: separate;
+  border-spacing: 3px;
+  margin: 0.5rem auto;
+}
+#result table caption {
+  margin: 0.75rem 0;
+  font-size: 1.32rem;
+  font-weight: bold;
+  text-align: center;
+}
+#result table th, #result table td {
+  background-color: #f8fbec;
+  padding: 0.5rem;
+}
+#result table td:last-child {
+  text-align: right;
+}
